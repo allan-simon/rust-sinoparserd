@@ -15,7 +15,7 @@ Right now there's one api on
 ```json
 {
 
-    'text' : 'some chinese text'
+    "text" : "some chinese text"
 }
 
 ```
@@ -23,7 +23,7 @@ Right now there's one api on
 and it will return you the "keywords" of your text
 
 
-```
+```json
 {
     "10": 7, 
     "20": 2, 
