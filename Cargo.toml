@@ -1,0 +1,16 @@
+[package]
+name = "sinoparserd"
+version = "0.1.0"
+authors = ["Allan Simon <simona@gobeta.com.cn>"]
+
+[dependencies]
+iron = "*"
+rustless = "0.7.0"
+hyper = "0.5.2"
+valico = "*"
+rustc-serialize = "0.3"
+
+[dependencies.radix_trie]
+
+git = "https://github.com/allan-simon/rust_radix_trie.git"
+rev = "13dff0f"
