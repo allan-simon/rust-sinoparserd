@@ -4,6 +4,13 @@
 
 simply launch the binary `./sinoparserd`
 
+you can also use the docker image:
+
+```
+docker build -t sinoparserd .
+docker run --name sino  -p 4000:4000 -d  sinoparserd
+```
+
 ## Use it
 
 By default it opens an http connection on port 4000
