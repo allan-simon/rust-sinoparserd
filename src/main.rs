@@ -112,7 +112,7 @@ fn main() {
     });
 
     let app = Application::new(api);
-    match Iron::new(app).http("localhost:4000") {
+    match Iron::new(app).http("0.0.0.0:4000") {
         Ok(_) => println!("listening on port 4000"),
         Err(_) => println!("failed to open port 4000, is it already taken?")
     }
